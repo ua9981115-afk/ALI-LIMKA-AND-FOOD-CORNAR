@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syed Limka and Food Cart - Fresh drinks, soda, and delicious fast food at Burns Road, Karachi.">
+    <meta name="keywords" content="street food, limka, soda, fresh drinks, fast food, Burns Road, Karachi">
+    <meta name="author" content="Syed Limka and Food Cart">
+    <title>Syed Limka & Food Cart - Fresh Drinks & Fast Food | Burns Road</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>Syed Limka</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Fresh Drinks & Delicious Fast Food at Burns Road</h1>
+            <p class="hero-subtitle">Serving Fresh Mint Drinks, Soda & Tasty Fast Food Every Day</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">
+                    <i class="fas fa-utensils"></i> View Menu
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-map-marker-alt"></i> Visit Us
+                </a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&h=600&fit=crop" alt="Fresh drinks and food">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Delicious & Fresh Options Available</p>
+
+            <div class="menu-categories">
+                <!-- Drinks Category -->
+                <div class="menu-category">
+                    <div class="category-header">
+                        <i class="fas fa-glass-cheers"></i>
+                        <h3>🥤 Drinks</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Fresh Mint Drink</h4>
+                                <p class="item-description">Refreshing mint-infused beverage with fresh lemon</p>
+                                <span class="badge fresh">Fresh</span>
+                            </div>
+                            <div class="item-price">PKR 50</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Limka</h4>
+                                <p class="item-description">Classic cold Limka - the taste of tradition</p>
+                                <span class="badge best-seller">Best Seller</span>
+                            </div>
+                            <div class="item-price">PKR 40</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Soda</h4>
+                                <p class="item-description">Ice-cold soda perfect for hot days</p>
+                            </div>
+                            <div class="item-price">PKR 30</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Mint Lemonade</h4>
+                                <p class="item-description">Tangy lemonade with fresh mint leaves</p>
+                                <span class="badge fresh">Fresh</span>
+                            </div>
+                            <div class="item-price">PKR 60</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fast Food Category -->
+                <div class="menu-category">
+                    <div class="category-header">
+                        <i class="fas fa-burger"></i>
+                        <h3>🍟 Fast Food</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Beef Burger</h4>
+                                <p class="item-description">Juicy beef patty with fresh vegetables and special sauce</p>
+                                <span class="badge best-seller">Best Seller</span>
+                            </div>
+                            <div class="item-price">PKR 150</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Chicken Shawarma</h4>
+                                <p class="item-description">Tender chicken wrapped in soft pita bread</p>
+                                <span class="badge fresh">Fresh</span>
+                            </div>
+                            <div class="item-price">PKR 120</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Crispy Fries</h4>
+                                <p class="item-description">Golden fried potatoes with special seasoning</p>
+                            </div>
+                            <div class="item-price">PKR 60</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Vegetable Roll</h4>
+                                <p class="item-description">Fresh vegetables wrapped in crispy pastry</p>
+                                <span class="badge fresh">Fresh</span>
+                            </div>
+                            <div class="item-price">PKR 80</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>100% Fresh Ingredients</h3>
+                    <p>We use only the freshest ingredients sourced daily to ensure quality and taste.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Hygienic Preparation</h3>
+                    <p>High hygiene standards maintained throughout preparation and serving process.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Affordable Prices</h3>
+                    <p>Quality food and drinks at prices that won't break the bank.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Service</h3>
+                    <p>Quick service without compromising on quality - perfect for busy schedules.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-pin"></i>
+                    </div>
+                    <h3>Prime Location</h3>
+                    <p>Located in the heart of Burns Road - Karachi's most famous food street.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Made with Love</h3>
+                    <p>Every item prepared with passion and dedication to customer satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Our Story</h2>
+                    <p class="about-intro">From a small dream to a thriving street food business...</p>
+                    <p>
+                        Syed Limka and Food Cart started as a passion project to bring fresh, affordable, and delicious food to the vibrant community of Burns Road. What began as a humble food cart has grown into a beloved neighborhood staple, serving thousands of satisfied customers.
+                    </p>
+                    <p>
+                        We believe that great food doesn't have to be expensive or complicated. Our commitment to quality ingredients, hygienic preparation, and exceptional customer service sets us apart. Every drink we serve is freshly prepared, and every meal is cooked with care.
+                    </p>
+                    <p>
+                        We serve not just customers, but a community. From busy professionals grabbing a quick lunch to families enjoying weekend treats, we're honored to be part of your daily moments. Our mission is simple: serve the best, stay fresh, and keep smiling.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Happy Customers Daily</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Fresh Ingredients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5★</h4>
+                            <p>Customer Rating</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561404?w=600&h=600&fit=crop" alt="Our food cart">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <h2 class="section-title">Find Us at Burns Road</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <p class="location-highlight">🌟 Visit us at the heart of Karachi's most famous food street</p>
+                    <h3>Burns Road Food Street</h3>
+                    <p class="location-description">
+                        Burns Road is legendary among food lovers in Karachi. Known for its vibrant food culture and diverse culinary offerings, it's the perfect destination for street food enthusiasts. Our food cart is strategically located to serve both locals and tourists.
+                    </p>
+                    <div class="location-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Burns Road Food Street, Karachi</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Hours</h4>
+                                <p>10:00 AM - 11:00 PM Daily</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.1234567890!2d67.0099!3d24.8615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1234567890%3A0x1234567890abcdef!2sBurns%20Road%2C%20Karachi!5e0!3m2!1sen!2s!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">See what our customers love</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1582618908519-41f11ae4e4e8?w=400&h=400&fit=crop" alt="Fresh drinks">
+                    <div class="gallery-overlay">
+                        <p>Fresh Mint Drinks</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop" alt="Delicious burgers">
+                    <div class="gallery-overlay">
+                        <p>Tasty Burgers</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1529148482759-b649efde1584?w=400&h=400&fit=crop" alt="Crispy fries">
+                    <div class="gallery-overlay">
+                        <p>Golden Fries</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561404?w=400&h=400&fit=crop" alt="Shawarma">
+                    <div class="gallery-overlay">
+                        <p>Fresh Shawarma</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1585238341710-4913dfb72bfe?w=400&h=400&fit=crop" alt="Food cart">
+                    <div class="gallery-overlay">
+                        <p>Our Food Cart</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565123409695-7b5ef63df2ef?w=400&h=400&fit=crop" alt="Happy customers">
+                    <div class="gallery-overlay">
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Announcement Section -->
+    <section class="jobs" id="jobs">
+        <div class="container">
+            <div class="job-announcement">
+                <div class="job-header">
+                    <h2>🚨 We Are Hiring!</h2>
+                    <p class="job-subtitle">Join Our Growing Team</p>
+                </div>
+
+                <div class="job-content">
+                    <div class="job-position">
+                        <h3>🍔 Food Cart Worker</h3>
+                        <p class="job-description">We are looking for a hardworking and responsible person to manage our food cart and serve our valued customers.</p>
+
+                        <div class="job-details">
+                            <div class="job-section">
+                                <h4><i class="fas fa-tasks"></i> Responsibilities:</h4>
+                                <ul>
+                                    <li>Handle and manage the food cart operations</li>
+                                    <li>Sell drinks and fast food items with excellence</li>
+                                    <li>Deal with customers politely and professionally</li>
+                                    <li>Maintain cleanliness of cart and workspace</li>
+                                    <li>Manage daily sales and inventory</li>
+                                    <li>Follow all hygiene and safety standards</li>
+                                </ul>
+                            </div>
+
+                            <div class="job-section">
+                                <h4><i class="fas fa-user"></i> Requirements:</h4>
+                                <ul>
+                                    <li>✓ Honest and reliable personality</li>
+                                    <li>✓ Good communication skills</li>
+                                    <li>✓ Basic experience in food selling (preferred)</li>
+                                    <li>✓ Hardworking & dedicated (मेहनती)</li>
+                                    <li>✓ Ability to work long hours</li>
+                                    <li>✓ Customer service oriented</li>
+                                </ul>
+                            </div>
+
+                            <div class="job-section">
+                                <h4><i class="fas fa-award"></i> What We Offer:</h4>
+                                <ul>
+                                    <li>✓ Competitive salary based on experience</li>
+                                    <li>✓ Daily meal provided</li>
+                                    <li>✓ Friendly working environment</li>
+                                    <li>✓ Growth opportunities</li>
+                                    <li>✓ Flexible shifts</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="job-cta">
+                        <h4>Ready to Join Us?</h4>
+                        <p>Apply now through any of these methods:</p>
+                        <div class="apply-buttons">
+                            <a href="https://wa.me/923331234567?text=Hello%20Syed%20Limka!%20I%20am%20interested%20in%20the%20Food%20Cart%20Worker%20position." class="btn btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Apply via WhatsApp
+                            </a>
+                            <a href="#contact" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i> Apply via Contact Form
+                            </a>
+                        </div>
+                        <p class="job-note">We review applications on rolling basis. Apply today!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+92 333-1234567</p>
+                            <p>+92 333-7654321</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/923331234567" target="_blank">Chat with us on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Burns Road Food Street</p>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Daily: 10:00 AM - 11:00 PM</p>
+                            <p>Sundays: 10:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Reason for Contact</option>
+                            <option value="inquiry">General Inquiry</option>
+                            <option value="job">Job Application</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="catering">Catering Request</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Syed Limka & Food Cart</h4>
+                    <p>Fresh drinks and delicious fast food at Burns Road, Karachi.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#jobs">Jobs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Syed Limka & Food Cart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923331234567" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
